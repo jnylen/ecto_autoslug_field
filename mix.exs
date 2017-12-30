@@ -41,7 +41,7 @@ defmodule EctoAutoslugField.Mixfile do
     [{:ecto, ">= 2.1.0"},
 
      # Slugs:
-     {:slugger, ">= 0.2.0"},
+     {:slugify, ">= 1.1.0"},
 
      # Testing:
      {:excoveralls, "~> 0.5", only: :test},

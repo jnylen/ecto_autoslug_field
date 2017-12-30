@@ -15,5 +15,6 @@
   "mimerl": {:hex, :mimerl, "1.0.2", "993f9b0e084083405ed8252b99460c4f0563e41729ab42d9074fd5e52439be88", [], [], "hexpm"},
   "poolboy": {:hex, :poolboy, "1.5.1", "6b46163901cfd0a1b43d692657ed9d7e599853b3b21b95ae5ae0a777cf9b6ca8", [], [], "hexpm"},
   "slugger": {:hex, :slugger, "0.2.0", "7c609e6eee6dbb44e7b0db07982932356cab476f00fc8d73320cdc50d7efa18e", [:mix], [], "hexpm"},
+  "slugify": {:hex, :slugify, "1.1.0", "945165e32c7ad22226c63101ac57a64d105fd4681d503c3302ae2c734a0e26ee", [], [], "hexpm"},
   "ssl_verify_fun": {:hex, :ssl_verify_fun, "1.1.1", "28a4d65b7f59893bc2c7de786dec1e1555bd742d336043fe644ae956c3497fbe", [:make, :rebar], [], "hexpm"},
   "unicode_util_compat": {:hex, :unicode_util_compat, "0.3.1", "a1f612a7b512638634a603c8f401892afbf99b8ce93a45041f8aaca99cadb85e", [:rebar3], [], "hexpm"}}

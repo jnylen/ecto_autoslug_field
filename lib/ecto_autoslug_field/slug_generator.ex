@@ -1,6 +1,6 @@
 defmodule EctoAutoslugField.SlugGenerator do
   @moduledoc """
-  This module works with slugs itself. It is just a wrapper around 'Slugger'.
+  This module works with slugs itself. It is just a wrapper around 'slugify'.
 
   It is suited for inner use.
   """
@@ -43,10 +43,10 @@ defmodule EctoAutoslugField.SlugGenerator do
   # Private functions:
 
   defp do_build_slug(source) when is_binary(source) do
-    source |> Slugger.slugify_downcase()
+    source |> Slug.slugify()
   end
   defp do_build_slug(sources) do
-    sources |> Enum.join("-") |> Slugger.slugify_downcase()
+    sources |> Enum.join("-") |> Slug.slugify()
   end
 
   defp do_generate_slug(changeset, sources, opts) do
